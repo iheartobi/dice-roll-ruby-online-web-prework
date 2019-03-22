@@ -5,7 +5,6 @@
 def roll
   # code goes here
   rolls = []
-  Kernal.srand(1)
   Random.rand(1..6)
   return rand
   100.times do 
