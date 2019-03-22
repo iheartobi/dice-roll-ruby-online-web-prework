@@ -9,4 +9,5 @@ def roll
   return rand
   100.times do 
     roll << rolls
+  end
 end
