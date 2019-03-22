@@ -4,10 +4,5 @@
 
 def roll
   # code goes here
-  rolls = []
   Random.rand(1..6)
-  return rand
-  100.times do 
-    roll << rolls
-  end
 end
