@@ -5,7 +5,7 @@
 def roll
   # code goes here
   rolls = []
-  Random.rand(6)
+  Random.rand(6).to_i
   return rand
   100.times do 
     roll << rolls
